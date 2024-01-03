@@ -12,6 +12,6 @@ Check limits of number of subjects in single stream.
 
 Test script:
 ```bash
-time ./send-messages-to-n-subjects.sh
+./send-messages-to-n-subjects.sh
 ```
 
