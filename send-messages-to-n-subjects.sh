@@ -10,8 +10,8 @@ handle_signal() {
 trap handle_signal SIGINT SIGTSTP
 
 # Number of times you want to run the command
-N=10000
-COUNT=1000
+N=1000000
+COUNT=10
 TIMEFORMAT='Took %R'
 NATS_ARGS="-s nats://nats-3:4222 --user some_user --password some_passwd"
 
